@@ -19,8 +19,7 @@ a:hover {
   justify-content: space-between;
   max-width: 100vw;
   align-items: center;
-  padding: 1rem;
-  border-bottom: 1px solid gray;
+  padding: 1rem calc(10% - 1rem);
 }
 
 .header .btns a {
@@ -43,7 +42,8 @@ a:hover {
 }
 
 .wrapper {
-  padding: 1rem 2rem 2rem;
+  padding: 1rem 10%;
+  max-width: 80%;
 }
 
 .wrapper p {
@@ -59,6 +59,10 @@ a:hover {
     align-items: center;
     padding: 1rem;
     border-bottom: 1px solid gray;
+  }
+
+  .header .btns a {
+    font-size: 15px;
   }
 
   .wrapper p {
